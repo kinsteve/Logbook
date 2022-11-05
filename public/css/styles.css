@@ -1,0 +1,82 @@
+body{
+    background-image: url("/images/pen3.png");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position:100% 90%;
+    background-color: black;
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.top{
+    background-color: #14213D;
+    color: #fff;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #FCA331 !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #FCA331;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color: #fff;
+  
+}
+textarea{
+    width:100%;
+    height:200px;
+    margin: 20px;
+    padding:12px 20px;
+    box-sizing: border-box;    /*  to include padding and border width inside the textarea only */
+    border: 2px solid #FCA331;
+    border-radius: 4px;
+    background-color:#000;
+    font-size: 20px;
+    resize:none;
+    font-style: italic;
+}
+.titleOfPost{
+    width:100%;
+    margin:20px;
+    padding:2px 5px;
+    border:2px solid #FCA331;
+    border-radius: 4px;
+    background-color:#000;
+    font-size: 25px;
+}
+.btn{
+   margin: 20px 0;
+   float: right;
+}
+button:focus {                         /*To remove border around button in compose when clicked*/
+    outline: 0 !important;
+}
+
+label{
+    font-size: 20px;
+    font-family:inherit;
+}

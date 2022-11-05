@@ -1,0 +1,10 @@
+<%-include("partials/header")-%>
+<h1>Compose</h1>
+<form action="/compose" method="post" style="margin-top: 50px;" autocomplete="off">
+    <label for="ptitle">Title</label>
+    <input  class="titleOfPost" id="ptitle" type="text" name="postTitle" autofocus>
+    <label for="pbody">Post</label>
+    <textarea name="postBody" id="pbody" cols="30" rows="10" placeholder="How U' Doin... " autofocus autocomplete="off" aria-autocomplete="both"></textarea>
+    <button type="submit" class="btn btn-warning" name="button">Publish</button>
+</form>
+<%-include("partials/footer")-%>
